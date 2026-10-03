@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://gerardogala.github.io/Pub/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://gerardogala.github.io/Pub/</loc>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/4th-post.html</loc>
+<lastmod>2026-10-01T15:44:05+08:00</lastmod>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/18/1000015718-2.jpg</image:loc>
+<image:title><![CDATA[Playa Laiya Beach]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/18/1000015717.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/5.html</loc>
+<lastmod>2026-10-01T22:55:29+08:00</lastmod>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/25/Tahe-Beach-185-md.webp</image:loc>
+<image:title><![CDATA[Windsurf]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/5th-post.html</loc>
+<lastmod>2026-10-01T15:36:16+08:00</lastmod>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/a-new-post.html</loc>
+<lastmod>2026-10-01T22:26:46+08:00</lastmod>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/about-us.html</loc>
+<lastmod>2026-09-28T14:14:59+08:00</lastmod>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/instructors.html</loc>
+<lastmod>2026-09-30T06:07:48+08:00</lastmod>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/6/instructor1.jpg</image:loc>
+<image:title><![CDATA[Instructor G]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/6/instructor2.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/online-courses-2.html</loc>
+<lastmod>2026-09-30T06:06:29+08:00</lastmod>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/rentals.html</loc>
+<lastmod>2026-10-01T09:09:29+08:00</lastmod>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/12/paddlingKombi.jpg</image:loc>
+<image:title><![CDATA[Kombi Paddling Canoe]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/12/XTR17.jpg</image:loc>
+<image:title><![CDATA[XTR17]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/12/starboardSUP.jpg</image:loc>
+<image:title><![CDATA[Starboard SUP]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/12/Tahe-Beach-185.webp</image:loc>
+<image:title><![CDATA[Tahe Beach 185]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/sailboats.html</loc>
+<lastmod>2026-10-01T08:48:48+08:00</lastmod>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/16/ILCA.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/16/openskiff.jpg</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://gerardogala.github.io/Pub/media/posts/16/sailingKombi-2.jpg</image:loc>
+<image:title><![CDATA[Kombi Sailing Canoe]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/sailing-concepts-2.html</loc>
+<lastmod>2026-09-30T06:06:55+08:00</lastmod>
+</url>
+<url>
+<loc>https://gerardogala.github.io/Pub/test.html</loc>
+<lastmod>2026-10-01T22:38:00+08:00</lastmod>
+</url>
+</urlset>
