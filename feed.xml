@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>San Juan Academy</title>
-    <link href="https://gerardogala.github.io/Pub/feed.xml" rel="self" />
-    <link href="https://gerardogala.github.io/Pub" />
+    <link href="https://gerardogala.github.io/CMS/feed.xml" rel="self" />
+    <link href="https://gerardogala.github.io/CMS" />
     <updated>2026-10-01T22:55:29+08:00</updated>
     <author>
         <name>Gerardo Gala</name>
     </author>
-    <id>https://gerardogala.github.io/Pub</id>
+    <id>https://gerardogala.github.io/CMS</id>
 
     <entry>
         <title>Windsurfing 101</title>
         <author>
             <name>Gerardo Gala</name>
         </author>
-        <link href="https://gerardogala.github.io/Pub/5.html"/>
-        <id>https://gerardogala.github.io/Pub/5.html</id>
+        <link href="https://gerardogala.github.io/CMS/5.html"/>
+        <id>https://gerardogala.github.io/CMS/5.html</id>
             <category term="Blog"/>
 
         <updated>2026-10-01T16:08:45+08:00</updated>
@@ -29,7 +29,7 @@
                 <div align="center">
 <h1 class="component-header">Intro to Windsurfing</h1>
 </div>
-<figure class="post__image post__image--center"><img loading="lazy" src="https://gerardogala.github.io/Pub/media/posts/25/Tahe-Beach-185-md.webp" alt="Windsurf" width="600" height="654" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://gerardogala.github.io/Pub/media/posts/25/responsive/Tahe-Beach-185-md-xs.webp 640w ,https://gerardogala.github.io/Pub/media/posts/25/responsive/Tahe-Beach-185-md-sm.webp 768w ,https://gerardogala.github.io/Pub/media/posts/25/responsive/Tahe-Beach-185-md-md.webp 1024w ,https://gerardogala.github.io/Pub/media/posts/25/responsive/Tahe-Beach-185-md-lg.webp 1366w ,https://gerardogala.github.io/Pub/media/posts/25/responsive/Tahe-Beach-185-md-xl.webp 1600w ,https://gerardogala.github.io/Pub/media/posts/25/responsive/Tahe-Beach-185-md-2xl.webp 1920w">
+<figure class="post__image post__image--center"><img loading="lazy" src="https://gerardogala.github.io/CMS/media/posts/25/Tahe-Beach-185-md.webp" alt="Windsurf" width="600" height="654" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://gerardogala.github.io/CMS/media/posts/25/responsive/Tahe-Beach-185-md-xs.webp 640w ,https://gerardogala.github.io/CMS/media/posts/25/responsive/Tahe-Beach-185-md-sm.webp 768w ,https://gerardogala.github.io/CMS/media/posts/25/responsive/Tahe-Beach-185-md-md.webp 1024w ,https://gerardogala.github.io/CMS/media/posts/25/responsive/Tahe-Beach-185-md-lg.webp 1366w ,https://gerardogala.github.io/CMS/media/posts/25/responsive/Tahe-Beach-185-md-xl.webp 1600w ,https://gerardogala.github.io/CMS/media/posts/25/responsive/Tahe-Beach-185-md-2xl.webp 1920w">
 <figcaption>Windsurfing</figcaption>
 </figure>
 <table border="0" width="100%" cellspacing="0" cellpadding="3">
@@ -76,8 +76,8 @@
         <author>
             <name>Gerardo Gala</name>
         </author>
-        <link href="https://gerardogala.github.io/Pub/test.html"/>
-        <id>https://gerardogala.github.io/Pub/test.html</id>
+        <link href="https://gerardogala.github.io/CMS/test.html"/>
+        <id>https://gerardogala.github.io/CMS/test.html</id>
             <category term="Blog"/>
 
         <updated>2026-10-01T15:55:40+08:00</updated>
@@ -101,8 +101,8 @@
         <author>
             <name>Gerardo Gala</name>
         </author>
-        <link href="https://gerardogala.github.io/Pub/5th-post.html"/>
-        <id>https://gerardogala.github.io/Pub/5th-post.html</id>
+        <link href="https://gerardogala.github.io/CMS/5th-post.html"/>
+        <id>https://gerardogala.github.io/CMS/5th-post.html</id>
             <category term="Blog"/>
 
         <updated>2026-09-30T05:52:32+08:00</updated>
@@ -114,7 +114,7 @@
         <content type="html">
             <![CDATA[
                 <p>Look at how clean the water is in Hugom where there is less population.</p>
-<figure class="post__video"><a href="https://gerardogala.github.io/Pub/media/files/HugomVideo.mp4">Watch the Video here</a></figure>
+<figure class="post__video"><a href="https://gerardogala.github.io/CMS/media/files/HugomVideo.mp4">Watch the Video here</a></figure>
             ]]>
         </content>
     </entry>
@@ -123,8 +123,8 @@
         <author>
             <name>Gerardo Gala</name>
         </author>
-        <link href="https://gerardogala.github.io/Pub/4th-post.html"/>
-        <id>https://gerardogala.github.io/Pub/4th-post.html</id>
+        <link href="https://gerardogala.github.io/CMS/4th-post.html"/>
+        <id>https://gerardogala.github.io/CMS/4th-post.html</id>
             <category term="Blog"/>
 
         <updated>2026-09-30T05:52:15+08:00</updated>
@@ -137,10 +137,10 @@
             <![CDATA[
                 <p> </p>
 <p>This post shows the relationship between the Tide Schedule from Tides app and the actual tide in Playa Laiya Village.</p>
-<figure class="post__image post__image--center"><img loading="lazy" src="https://gerardogala.github.io/Pub/media/posts/18/1000015718-2.jpg" alt="Playa Laiya Beach" width="3264" height="2448" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015718-2-xs.jpg 640w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015718-2-sm.jpg 768w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015718-2-md.jpg 1024w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015718-2-lg.jpg 1366w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015718-2-xl.jpg 1600w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015718-2-2xl.jpg 1920w">
+<figure class="post__image post__image--center"><img loading="lazy" src="https://gerardogala.github.io/CMS/media/posts/18/1000015718-2.jpg" alt="Playa Laiya Beach" width="3264" height="2448" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015718-2-xs.jpg 640w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015718-2-sm.jpg 768w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015718-2-md.jpg 1024w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015718-2-lg.jpg 1366w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015718-2-xl.jpg 1600w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015718-2-2xl.jpg 1920w">
 <figcaption>Playa Laiya Beach</figcaption>
 </figure>
-<figure><figure class="post__image post__image--center"><img loading="lazy"  src="https://gerardogala.github.io/Pub/media/posts/18/1000015717.png" alt="" width="720" height="1640" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015717-xs.png 640w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015717-sm.png 768w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015717-md.png 1024w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015717-lg.png 1366w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015717-xl.png 1600w ,https://gerardogala.github.io/Pub/media/posts/18/responsive/1000015717-2xl.png 1920w"></figure>
+<figure><figure class="post__image post__image--center"><img loading="lazy"  src="https://gerardogala.github.io/CMS/media/posts/18/1000015717.png" alt="" width="720" height="1640" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015717-xs.png 640w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015717-sm.png 768w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015717-md.png 1024w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015717-lg.png 1366w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015717-xl.png 1600w ,https://gerardogala.github.io/CMS/media/posts/18/responsive/1000015717-2xl.png 1920w"></figure>
 <figcaption>Tide schedule from Android App named "Tides"</figcaption>
 </figure>
             ]]>
@@ -151,8 +151,8 @@
         <author>
             <name>Gerardo Gala</name>
         </author>
-        <link href="https://gerardogala.github.io/Pub/a-new-post.html"/>
-        <id>https://gerardogala.github.io/Pub/a-new-post.html</id>
+        <link href="https://gerardogala.github.io/CMS/a-new-post.html"/>
+        <id>https://gerardogala.github.io/CMS/a-new-post.html</id>
             <category term="Blog"/>
 
         <updated>2026-09-28T02:59:06+08:00</updated>
