@@ -7,22 +7,22 @@
     {
         "path": "4th-post.html",
         "type": "file",
-        "md5": "62b21e2b555342f065f1e46a6568af1e"
+        "md5": "03dc6dd5b1549059f3329fd78b42b4f9"
     },
     {
         "path": "5.html",
         "type": "file",
-        "md5": "ca705809a793ea5fafb5ab770ebe196c"
+        "md5": "207969142fe8fff3fc5d7b6b058aea56"
     },
     {
         "path": "5th-post.html",
         "type": "file",
-        "md5": "ba88d657f60b1b03c183f3f536216459"
+        "md5": "6898d89d635aa93bcf2e2319aa43113d"
     },
     {
         "path": "a-new-post.html",
         "type": "file",
-        "md5": "cff52ab0b538fe41adbedbfb63470f95"
+        "md5": "0207032e5d77649ab8158da537050efd"
     },
     {
         "path": "about-us.html",
@@ -127,7 +127,7 @@
     {
         "path": "/authors/gerardo-gala/index.html",
         "type": "file",
-        "md5": "71f90aa89877560fa497d12495aff98e"
+        "md5": "2f34b171ff4b5df263fd9037f7b0b48b"
     },
     {
         "path": "index.html",
@@ -757,7 +757,7 @@
     {
         "path": "/tags/blog/index.html",
         "type": "file",
-        "md5": "6cbceb3475f94f4499a9ef33116f0f31"
+        "md5": "a368052c2b93d884c403ef7c8a4cede0"
     },
     {
         "path": "/tags/index.html",
@@ -767,6 +767,6 @@
     {
         "path": "test.html",
         "type": "file",
-        "md5": "f4e16a88c1b986b14828a071b25d1ccf"
+        "md5": "f0f887bb54156776066231ac56f6328a"
     }
 ]
