@@ -1,0 +1,128 @@
+[
+  {
+    "ID": "CU-1001",
+    "Name": "Alice Smith",
+    "Department": "Engineering",
+    "Major": "Computer Science",
+    "Enrollment Date": "2024-09-01",
+    "GPA": 3.85,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1002",
+    "Name": "Bob Johnson",
+    "Department": "Business",
+    "Major": "Finance",
+    "Enrollment Date": "2023-01-15",
+    "GPA": 3.42,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1003",
+    "Name": "Charlie Miller",
+    "Department": "Arts",
+    "Major": "Graphic Design",
+    "Enrollment Date": "2025-09-01",
+    "GPA": 2.90,
+    "Status": "Probation"
+  },
+  {
+    "ID": "CU-1004",
+    "Name": "Diana Prince",
+    "Department": "Engineering",
+    "Major": "Mechanical Eng",
+    "Enrollment Date": "2024-09-01",
+    "GPA": 3.91,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1005",
+    "Name": "Evan Wright",
+    "Department": "Business",
+    "Major": "Marketing",
+    "Enrollment Date": "2024-01-10",
+    "GPA": 3.15,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1006",
+    "Name": "Fiona Gallagher",
+    "Department": "Science",
+    "Major": "Biology",
+    "Enrollment Date": "2023-09-01",
+    "GPA": 3.67,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1007",
+    "Name": "George Costanza",
+    "Department": "Arts",
+    "Major": "History",
+    "Enrollment Date": "2022-09-01",
+    "GPA": 2.10,
+    "Status": "Suspended"
+  },
+  {
+    "ID": "CU-1008",
+    "Name": "Hannah Abbott",
+    "Department": "Science",
+    "Major": "Chemistry",
+    "Enrollment Date": "2025-09-01",
+    "GPA": 3.50,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1009",
+    "Name": "Ian Malcolm",
+    "Department": "Science",
+    "Major": "Mathematics",
+    "Enrollment Date": "2023-01-15",
+    "GPA": 3.98,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1010",
+    "Name": "Julia Roberts",
+    "Department": "Arts",
+    "Major": "Theater",
+    "Enrollment Date": "2024-09-01",
+    "GPA": 3.22,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1011",
+    "Name": "Kevin Mitnick",
+    "Department": "Engineering",
+    "Major": "Cybersecurity",
+    "Enrollment Date": "2024-01-15",
+    "GPA": 3.74,
+    "Status": "Active"
+  },
+  {
+    "ID": "CU-1012",
+    "Name": "Laura Croft",
+    "Department": "Arts",
+    "Major": "Archaeology",
+    "Enrollment Date": "2023-09-01",
+    "GPA": 2.85,
+    "Status": "Probation"
+  },
+  {
+    "ID": "CU-1013",
+    "Name": "Michael Scott",
+    "Department": "Business",
+    "Major": "Management",
+    "Enrollment Date": "2022-01-10",
+    "GPA": 2.45,
+    "Status": "Probation"
+  },
+  {
+    "ID": "CU-1014",
+    "Name": "Nina Simone",
+    "Department": "Arts",
+    "Major": "Music",
+    "Enrollment Date": "2025-09-01",
+    "GPA": 3.89,
+    "Status": "Active"
+  }
+]
