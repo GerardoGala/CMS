@@ -16,7 +16,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Roboto Flex', sans-serif;
-            font-size: 11px; /* Forced crisp small font */
+            font-size: 11px;
             border-radius: 0px !important; /* Strict zero radius rule */
         }
 
@@ -46,7 +46,7 @@
         table.report-table td {
             padding: 6px 10px;
             border: 1px solid #000000;
-            white-space: nowrap; /* Prevents awkward multiline column stacking on cells */
+            white-space: nowrap;
         }
 
         table.report-table th {
@@ -62,7 +62,45 @@
         }
 
         table.report-table tr:nth-child(even) {
-            background-color: #f2f2f2; /* Light functional contrast row color */
+            background-color: #f2f2f2;
+        }
+
+        /* Stark Minimal Pagination UI Bar */
+        .pagination-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .pagination-buttons {
+            display: flex;
+            gap: 5px;
+        }
+
+        .pagination-btn {
+            background-color: #ffffff;
+            color: #000000;
+            border: 1px solid #000000;
+            padding: 4px 8px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .pagination-btn:hover:not(:disabled) {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .pagination-btn:disabled {
+            border-color: #cccccc;
+            color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .page-indicator {
+            font-weight: 600;
         }
     </style>
 </head>
@@ -70,14 +108,24 @@
 
     <!-- Target Data Grid Container -->
     <div class="responsive-table-box" id="targetArea"></div>
+    
+    <!-- Minimal Pagination Shell -->
+    <div class="pagination-container" id="paginationControls"></div>
 
     <script>
     (function() {
         let masterRows = [];
         let ascending = Array(7).fill(true);
         const keys = ["ID", "Name", "Department", "Major", "Enrollment Date", "GPA", "Status"];
+        
+        // Dynamic Pagination Controls
+        let currentPage = 1;
 
-        // Data processing pipeline pipeline invocation 
+        // Function to determine page size on the fly based on browser viewport size
+        function getRowsPerPage() {
+            return window.matchMedia("(max-width: 768px)").matches ? 6 : 12;
+        }
+
         function loadStudentData() {
             fetch("students.json")
                 .then(res => res.ok ? res.json() : Promise.reject())
@@ -85,10 +133,9 @@
                     masterRows = data;
                     setupTableFramework();
                 })
-                .catch(() => console.error("Error: Could not locate students.json database layout. Ensure file matches current site pathing."));
+                .catch(() => console.error("Error: Could not locate students.json database layout."));
         }
 
-        // Framework layout composition
         function setupTableFramework() {
             const target = document.getElementById('targetArea');
             if (!target) return;
@@ -106,7 +153,6 @@
                     <tbody id="table-rows-body"></tbody>
                 </table>`;
 
-            // Event binding logic mapped directly to parent component matrix block
             target.querySelector('thead').addEventListener('click', (e) => {
                 const th = e.target.closest('th');
                 if (th) {
@@ -115,15 +161,31 @@
                 }
             });
 
-            renderTableRows();
+            // Listen for window resize/rotation events to seamlessly recalculate view bounds
+            window.addEventListener('resize', renderTableAndPagination);
+
+            renderTableAndPagination();
         }
 
-        // DOM string node generator layout process map 
-        function renderTableRows() {
+        function renderTableAndPagination() {
             const tbody = document.getElementById('table-rows-body');
-            if (!tbody) return;
+            const nav = document.getElementById('paginationControls');
+            if (!tbody || !nav) return;
 
-            tbody.innerHTML = masterRows.map(row => `
+            const rowsPerPage = getRowsPerPage();
+            const totalRows = masterRows.length;
+            const totalPages = Math.ceil(totalRows / rowsPerPage) || 1;
+            
+            // Boundary Guarding
+            if (currentPage > totalPages) currentPage = totalPages;
+            if (currentPage < 1) currentPage = 1;
+
+            const startIndex = (currentPage - 1) * rowsPerPage;
+            const endIndex = startIndex + rowsPerPage;
+            const pageSubset = masterRows.slice(startIndex, endIndex);
+
+            // 1. Render Table Rows for Current Page
+            tbody.innerHTML = pageSubset.map(row => `
                 <tr>
                     <td>${row.ID ?? ''}</td>
                     <td><strong>${row.Name ?? ''}</strong></td>
@@ -134,9 +196,28 @@
                     <td>${row.Status ?? ''}</td>
                 </tr>
             `).join('');
+
+            // 2. Render Functional Nav Controls Block
+            nav.innerHTML = `
+                <div class="page-indicator">Showing ${totalRows === 0 ? 0 : startIndex + 1}-${Math.min(endIndex, totalRows)} of ${totalRows}</div>
+                <div class="pagination-buttons">
+                    <button class="pagination-btn" id="prevBtn" ${currentPage === 1 ? 'disabled' : ''}>PREV</button>
+                    <button class="pagination-btn" id="nextBtn" ${currentPage === totalPages ? 'disabled' : ''}>NEXT</button>
+                </div>
+            `;
+
+            // 3. Attach Nav Event Listeners Dynamically
+            document.getElementById('prevBtn').addEventListener('click', () => {
+                currentPage--;
+                renderTableAndPagination();
+            });
+
+            document.getElementById('nextBtn').addEventListener('click', () => {
+                currentPage++;
+                renderTableAndPagination();
+            });
         }
 
-        // Quick alpha-sort array execution logic maps
         function sortColumn(index) {
             const key = keys[index];
             const isAsc = ascending[index];
@@ -152,10 +233,10 @@
             });
 
             ascending[index] = !isAsc;
-            renderTableRows();
+            currentPage = 1; 
+            renderTableAndPagination();
         }
 
-        // Process initialization layout bindings safely
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', loadStudentData);
         } else {
