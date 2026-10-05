@@ -1,131 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Data Matrix</title>
-    <!-- Import Roboto Flex from Google Fonts -->
-    <link rel="preconnect" href="https://googleapis.com">
-    <link rel="preconnect" href="https://gstatic.com" crossorigin>
-    <link href="https://googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&display=swap" rel="stylesheet">
-    
-    <style>
-        /* Global & Typography Resets */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Roboto Flex', sans-serif;
-            font-size: 11px;
-            border-radius: 0px !important; /* Strict zero radius rule */
-        }
-
-        body {
-            background-color: #ffffff;
-            color: #000000;
-            padding: 15px;
-        }
-
-        /* Swipeable horizontal scrolling container for mobile screen support */
-        .responsive-table-box {
-            width: 100%;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-            border: 1px solid #000000;
-        }
-
-        /* Strict Black & White Grid Design Elements */
-        table.report-table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-            background-color: #ffffff;
-        }
-
-        table.report-table th, 
-        table.report-table td {
-            padding: 6px 10px;
-            border: 1px solid #000000;
-            white-space: nowrap;
-        }
-
-        table.report-table th {
-            background-color: #000000;
-            color: #ffffff;
-            font-weight: 600;
-            cursor: pointer;
-            user-select: none;
-        }
-
-        table.report-table th:hover {
-            background-color: #333333;
-        }
-
-        table.report-table tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        /* Stark Minimal Pagination UI Bar */
-        .pagination-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 10px;
-            width: 100%;
-        }
-
-        .pagination-buttons {
-            display: flex;
-            gap: 5px;
-        }
-
-        .pagination-btn {
-            background-color: #ffffff;
-            color: #000000;
-            border: 1px solid #000000;
-            padding: 4px 8px;
-            cursor: pointer;
-            font-weight: 600;
-        }
-
-        .pagination-btn:hover:not(:disabled) {
-            background-color: #000000;
-            color: #ffffff;
-        }
-
-        .pagination-btn:disabled {
-            border-color: #cccccc;
-            color: #cccccc;
-            cursor: not-allowed;
-        }
-
-        .page-indicator {
-            font-weight: 600;
-        }
-    </style>
-</head>
-<body>
-
-    <!-- Target Data Grid Container -->
-    <div class="responsive-table-box" id="targetArea"></div>
-    
-    <!-- Minimal Pagination Shell -->
-    <div class="pagination-container" id="paginationControls"></div>
-
-    <script>
-    (function() {
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Student Report - San Juan Academy</title><meta name="description" content="Sailing lessons, sailboat rentals, SUP, kayak, windsurf in San Juan Batangas."><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="stylesheet" href="/CMS/pagefind/pagefind-component-ui.css"><script src="/CMS/pagefind/pagefind-component-ui.js" type="module"></script><style>.pagefind-search-fallback{display:flex;align-items:center;border:1px solid #d1d5db;border-radius:.5rem;padding:.55rem .75rem;background:#fff;color:#6b7280}.pagefind-search-fallback input{width:100%;border:0;background:transparent;color:inherit;font:inherit;outline:0}.pagefind-searchbox:defined+.pagefind-search-fallback{display:none}</style><link rel="canonical" href="./student-report.html"><link rel="shortcut icon" href="./media/website/favicon-32x32.png" type="image/x-icon"><link rel="preload" href="./assets/dynamic/fonts/robotoflex/robotoflex.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="./assets/css/style.css?v&#x3D;f187871c62b8355a57c93b101ac61ac2"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"./student-report.html"},"headline":"Student Report","datePublished":"2026-10-05T02:43+08:00","dateModified":"2026-10-05T12:10+08:00","description":"Sailing lessons, sailboat rentals, SUP, kayak, windsurf in San Juan Batangas.","author":{"@type":"Person","name":"Gerardo Gala","url":"./authors/gerardo-gala/"},"publisher":{"@type":"Organization","name":"Gerardo Gala"}}</script><noscript><style>img[loading] {
+                    opacity: 1;
+                }</style></noscript></head><body class="page-template"><header class="top js-header"><a class="logo" href="./">San Juan Academy</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="./" target="_self">Home</a></li><li><a href="./sailboats.html" target="_self">Sailboat Rentals</a></li><li><a href="./rentals.html" target="_self">Kayak and SUP Rentals</a></li><li><a href="./instructors.html" target="_self">Instructors</a></li><li><a href="./online-courses-2.html" target="_self">Online Courses</a></li><li><a href="./sailing-concepts-2.html" target="_self">Sailing Concepts</a></li><li><a href="./tags/blog/" title="Blog" target="_self">Blog</a></li><li class="active"><a href="./student-report.html" title="student" target="_self">Student Report</a></li><li><a href="./about-us.html" target="_self">About Us</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><div class="wrapper search__overlay-inner"><pagefind-searchbox class="pagefind-searchbox" placeholder="Search this site…" show-sub-results></pagefind-searchbox><form class="pagefind-search-fallback" role="search"><input type="search" placeholder="Search this site…" aria-label="Search this site…" readonly="readonly"></form></div></div><button class="search__btn btn--icon js-search-btn" aria-label="Search"><svg height="18" width="18" role="presentation" focusable="false"><use xlink:href="./assets/svg/svg-map.svg#search"/></svg></button></div></header><main class="page" data-pagefind-body><article class="content"><div class="hero hero--noimage"><header class="hero__content"><div class="wrapper"><h1>Student Report</h1></div></header></div><div class="entry-wrapper content__entry"><div id="student-app-container"><div id="targetArea" class="responsive-scroll-box"></div><script>(function() {
         let masterRows = [];
         let ascending = Array(7).fill(true);
         const keys = ["ID", "Name", "Department", "Major", "Enrollment Date", "GPA", "Status"];
-        
-        // Dynamic Pagination Controls
-        let currentPage = 1;
 
-        // Function to determine page size on the fly based on browser viewport size
-        function getRowsPerPage() {
-            return window.matchMedia("(max-width: 768px)").matches ? 6 : 12;
-        }
-
+        // Fetch data and build UI
         function loadStudentData() {
             fetch("students.json")
                 .then(res => res.ok ? res.json() : Promise.reject())
@@ -133,26 +13,30 @@
                     masterRows = data;
                     setupTableFramework();
                 })
-                .catch(() => console.error("Error: Could not locate students.json database layout."));
+                .catch(() => console.error("Failed to load students.json"));
         }
 
+        // Generate UI shell
         function setupTableFramework() {
             const target = document.getElementById('targetArea');
             if (!target) return;
 
             let headerCells = "";
             for (let i = 0; i < keys.length; i++) {
-                headerCells += '<th data-index="' + i + '">' + keys[i] + ' ↕</th>';
+                headerCells += '<th data-index="' + i + '" style="cursor:pointer; border-bottom: 2px solid #e5e7eb; border-right: 1px solid #e5e7eb; font-weight: 600;">' + keys[i] + ' ↕</th>';
             }
 
             target.innerHTML = `
-                <table class="report-table">
+                <table class="report-table" style="width:100%; border-collapse: collapse; text-align: left; background-color: #ffffff;">
                     <thead>
-                        <tr>${headerCells}</tr>
+                        <tr style="background-color: #f9fafb;">
+                            ${headerCells}
+                        </tr>
                     </thead>
                     <tbody id="table-rows-body"></tbody>
                 </table>`;
 
+            // Event delegation for table header clicks
             target.querySelector('thead').addEventListener('click', (e) => {
                 const th = e.target.closest('th');
                 if (th) {
@@ -161,63 +45,28 @@
                 }
             });
 
-            // Listen for window resize/rotation events to seamlessly recalculate view bounds
-            window.addEventListener('resize', renderTableAndPagination);
-
-            renderTableAndPagination();
+            renderTableRows();
         }
 
-        function renderTableAndPagination() {
+        // Render updates only
+        function renderTableRows() {
             const tbody = document.getElementById('table-rows-body');
-            const nav = document.getElementById('paginationControls');
-            if (!tbody || !nav) return;
+            if (!tbody) return;
 
-            const rowsPerPage = getRowsPerPage();
-            const totalRows = masterRows.length;
-            const totalPages = Math.ceil(totalRows / rowsPerPage) || 1;
-            
-            // Boundary Guarding
-            if (currentPage > totalPages) currentPage = totalPages;
-            if (currentPage < 1) currentPage = 1;
-
-            const startIndex = (currentPage - 1) * rowsPerPage;
-            const endIndex = startIndex + rowsPerPage;
-            const pageSubset = masterRows.slice(startIndex, endIndex);
-
-            // 1. Render Table Rows for Current Page
-            tbody.innerHTML = pageSubset.map(row => `
-                <tr>
-                    <td>${row.ID ?? ''}</td>
-                    <td><strong>${row.Name ?? ''}</strong></td>
-                    <td>${row.Department ?? ''}</td>
-                    <td>${row.Major ?? ''}</td>
-                    <td>${row["Enrollment Date"] ?? ''}</td>
-                    <td>${row.GPA !== undefined ? Number(row.GPA).toFixed(2) : ''}</td>
+            tbody.innerHTML = masterRows.map(row => `
+                <tr style="border-bottom: 1px solid #e5e7eb;">
+                    <td style="border-right: 1px solid #e5e7eb;">${row.ID ?? ''}</td>
+                    <td style="border-right: 1px solid #e5e7eb;"><strong>${row.Name ?? ''}</strong></td>
+                    <td style="border-right: 1px solid #e5e7eb;">${row.Department ?? ''}</td>
+                    <td style="border-right: 1px solid #e5e7eb;">${row.Major ?? ''}</td>
+                    <td style="border-right: 1px solid #e5e7eb;">${row["Enrollment Date"] ?? ''}</td>
+                    <td style="border-right: 1px solid #e5e7eb;">${row.GPA !== undefined ? Number(row.GPA).toFixed(2) : ''}</td>
                     <td>${row.Status ?? ''}</td>
                 </tr>
             `).join('');
-
-            // 2. Render Functional Nav Controls Block
-            nav.innerHTML = `
-                <div class="page-indicator">Showing ${totalRows === 0 ? 0 : startIndex + 1}-${Math.min(endIndex, totalRows)} of ${totalRows}</div>
-                <div class="pagination-buttons">
-                    <button class="pagination-btn" id="prevBtn" ${currentPage === 1 ? 'disabled' : ''}>PREV</button>
-                    <button class="pagination-btn" id="nextBtn" ${currentPage === totalPages ? 'disabled' : ''}>NEXT</button>
-                </div>
-            `;
-
-            // 3. Attach Nav Event Listeners Dynamically
-            document.getElementById('prevBtn').addEventListener('click', () => {
-                currentPage--;
-                renderTableAndPagination();
-            });
-
-            document.getElementById('nextBtn').addEventListener('click', () => {
-                currentPage++;
-                renderTableAndPagination();
-            });
         }
 
+        // Sort core array logic
         function sortColumn(index) {
             const key = keys[index];
             const isAsc = ascending[index];
@@ -233,16 +82,22 @@
             });
 
             ascending[index] = !isAsc;
-            currentPage = 1; 
-            renderTableAndPagination();
+            renderTableRows();
         }
 
+        // Initialize execution safely on window layout load
         if (document.readyState === 'loading') {
             document.addEventListener('DOMContentLoaded', loadStudentData);
         } else {
             loadStudentData();
         }
-    })();
-    </script>
-</body>
-</html>
+    })();</script></div></div></article><div class="banner banner--after-content"><div class="wrapper"><div class="google-review-cta" style="margin: 10px 0; padding: 12px; border: 1px solid #000000; border-radius: 0px; background-color: #ffffff; text-align: center;"><h4 style="margin-top: 0; color: #000000; font-size: 1.2rem;">Found this guide helpful?</h4><p style="color: #000000; margin-bottom: 3px;">If you enjoyed our sailing tips, please consider leave us a quick review on Google Maps!</p><a href="https://g.page/r/CWkxEjqcMdcaEBM/review" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 3px 6px; background-color: #000000; color: #ffffff; text-decoration: none; font-weight: bold; border-radius: 0px; box-shadow: 0 0px 0px rgba(0,0,0,0.1);">Write a Google Review ★★★★★</a></div></div></div></main><footer class="footer"><div class="wrapper"><div class="footer__copyright"><p class="align-center">© 2026 San Juan Academy. All rights reserved.</p></div><button id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg width="20" height="20"><use xlink:href="./assets/svg/svg-map.svg#toparrow"/></svg></button></div></footer><script defer="defer" src="./assets/js/scripts.min.js?v&#x3D;dafec4f87fead6718cb125f0b0fc8441"></script><script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script><script>var images = document.querySelectorAll('img[loading]');
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script></body></html>

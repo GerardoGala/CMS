@@ -7,27 +7,27 @@
     {
         "path": "4th-post.html",
         "type": "file",
-        "md5": "856b04ba0d803f73803b36a91150a4d3"
+        "md5": "be402f838e2f23dd39d651fc4918212d"
     },
     {
         "path": "5.html",
         "type": "file",
-        "md5": "076344e8316e4a8dd5db026291ec3e49"
+        "md5": "41c3c73a4b2cca180bd0e14444004d15"
     },
     {
         "path": "5th-post.html",
         "type": "file",
-        "md5": "bfcecb648c19b6596c821f736694789a"
+        "md5": "da2aa83b88a7182c469bcbee2a5638bf"
     },
     {
         "path": "a-new-post.html",
         "type": "file",
-        "md5": "2a63b5c92ec3cab0f16fb1cfcaeeea88"
+        "md5": "537094975e564543e8ed1395b6ba897a"
     },
     {
         "path": "about-us.html",
         "type": "file",
-        "md5": "15a9edeca2ac3a706ad5439adbeb69e9"
+        "md5": "9616b4ce5f2de489c9ec0418dd0ec858"
     },
     {
         "path": "assets",
@@ -127,12 +127,12 @@
     {
         "path": "index.html",
         "type": "file",
-        "md5": "19fb38224536760717de6fd8680943e5"
+        "md5": "c0f43d62d4a8cbf2e0ccf0256dc622f7"
     },
     {
         "path": "instructors.html",
         "type": "file",
-        "md5": "2735e3b4bda7a35d13493a8b4e8b17cc"
+        "md5": "3a5751b1197614c3db9883a77b38049b"
     },
     {
         "path": "media",
@@ -767,12 +767,12 @@
     {
         "path": "online-courses-2.html",
         "type": "file",
-        "md5": "ac2c8f5f4e6627254dffe5584d627613"
+        "md5": "9fedf3267808dc43c744af589a2363c0"
     },
     {
         "path": "rentals.html",
         "type": "file",
-        "md5": "799df5070108368d0688c9eb169ea13f"
+        "md5": "55a8565f5ceae5a01caec1cacfb0d107"
     },
     {
         "path": "robots.txt",
@@ -782,17 +782,17 @@
     {
         "path": "sailboats.html",
         "type": "file",
-        "md5": "1ea064650b49e7260b3a64a0d5871057"
+        "md5": "6cd7f6797033cab7fb116b57ff8edbf2"
     },
     {
         "path": "sailing-concepts-2.html",
         "type": "file",
-        "md5": "f2a9a5ee90e7e1f018cbe470880a09dd"
+        "md5": "35fd5072373efbad4f8c2191e0c1fe19"
     },
     {
         "path": "student-report.html",
         "type": "file",
-        "md5": "bb9a3638897f5cabd857ef0215463cee"
+        "md5": "e1dddaeec0e61156c1f5211bc9c2a9c2"
     },
     {
         "path": "tags",
@@ -815,8 +815,13 @@
         "md5": "91a4bf3dfc0fac8e85284890e118d0cc"
     },
     {
+        "path": "teachers-upload.html",
+        "type": "file",
+        "md5": "4890a39b3b64cfd2cfb4e0656a1be7d4"
+    },
+    {
         "path": "test.html",
         "type": "file",
-        "md5": "d1a421c211e0b15db7859e22903b42d5"
+        "md5": "a8cbbca161a9a3ebb34ae3d2377eeba7"
     }
 ]
