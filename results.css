@@ -1,0 +1,123 @@
+/* Global & Typography Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 11px;
+    border-radius: 0px !important; /* Strict zero radius rule */
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+}
+
+.control-panel {
+    margin-bottom: 15px;
+}
+
+/* Mobile-friendly custom upload button */
+.upload-btn {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.upload-btn:hover {
+    background-color: #333333;
+}
+
+#csv-file-input {
+    display: none;
+}
+
+/* Swipeable horizontal scrolling container for mobile screen support */
+.responsive-table-box {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border: 1px solid #000000;
+}
+
+/* Strict Black & White Grid Design Elements */
+table.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+table.report-table th, 
+table.report-table td {
+    padding: 6px 10px;
+    border: 1px solid #000000;
+    white-space: nowrap;
+}
+
+table.report-table th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+}
+
+table.report-table th:hover {
+    background-color: #333333;
+}
+
+table.report-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Dropped score styling (Crossed out) */
+.discard {
+    text-decoration: line-through;
+    color: #888888;
+    font-weight: normal;
+}
+
+/* Stark Minimal Pagination UI Bar */
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.pagination-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.pagination-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.pagination-btn:disabled {
+    border-color: #cccccc;
+    color: #cccccc;
+    cursor: not-allowed;
+}
+
+.page-indicator {
+    font-weight: 600;
+}
