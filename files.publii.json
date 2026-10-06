@@ -2,32 +2,32 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "7d9aa0173fbe0241ade0f52f22cdeef7"
+        "md5": "3b9070e57c8766861eb5c83300f8e77a"
     },
     {
         "path": "4th-post.html",
         "type": "file",
-        "md5": "334d85a94d13dce9eeb591f0f092fd1c"
+        "md5": "a478bb42bbfb503dc377c38dba2643ab"
     },
     {
         "path": "5.html",
         "type": "file",
-        "md5": "ea430f432972b4bd35aefa63a5c0d570"
+        "md5": "192c4ab0dea0f9641c45aecf54e03829"
     },
     {
         "path": "5th-post.html",
         "type": "file",
-        "md5": "eb1bcb46d449fad00b1ea900c0d67d27"
+        "md5": "eb6b7139a1202c9356d1213ce3ee7319"
     },
     {
         "path": "a-new-post.html",
         "type": "file",
-        "md5": "8da8ea411fe9ffeb5eebaf2d1606a537"
+        "md5": "be7b0dcf62f054fe832d2e6a997c1dc0"
     },
     {
         "path": "about-us.html",
         "type": "file",
-        "md5": "e60483fa2d6ad883759d95bf392352ab"
+        "md5": "fd0edbc3f2c228fe7d99843acf02df06"
     },
     {
         "path": "assets",
@@ -52,7 +52,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "254156a0eadfbf1e57b5a30645d9a43c"
+        "md5": "05f7ee30be7b070fb88dd516653435f3"
     },
     {
         "path": "assets/dynamic",
@@ -122,17 +122,17 @@
     {
         "path": "/authors/gerardo-gala/index.html",
         "type": "file",
-        "md5": "e669a718718cf61a5dc09008d5222f8c"
+        "md5": "d5c390a3017e4d6459503d71394ccb4e"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "7db97e80d504f70d51aec92bb1a10ca7"
+        "md5": "1baacad0b9228bacb5979bd19f650f20"
     },
     {
         "path": "instructors.html",
         "type": "file",
-        "md5": "3df945de406934cdaa2b0765c9e6f75b"
+        "md5": "3b959f4e4c3e54eb230fb61725c90221"
     },
     {
         "path": "media",
@@ -767,12 +767,12 @@
     {
         "path": "online-courses-2.html",
         "type": "file",
-        "md5": "459ac60515160db4379fdc1ae64806df"
+        "md5": "b8e07e39b983814fa27e0ef9ba16a5fc"
     },
     {
         "path": "rentals.html",
         "type": "file",
-        "md5": "8788ba537780eee0e72b71b224bc8c22"
+        "md5": "b65bcc9efcfc1fbbcbdb3a21984b4882"
     },
     {
         "path": "robots.txt",
@@ -782,17 +782,17 @@
     {
         "path": "sailboats.html",
         "type": "file",
-        "md5": "072f9d2dbe86664d4042215f83ee6f99"
+        "md5": "ca2727c0d78947ec9e9129a2bdce7a3c"
     },
     {
         "path": "sailing-concepts-2.html",
         "type": "file",
-        "md5": "9b38b97228cc264685dc13932771c020"
+        "md5": "1a0ea980c901e97c13e57e3c169c7cb7"
     },
     {
         "path": "student-report.html",
         "type": "file",
-        "md5": "8d26bbfd3dc0eda0e775759191e7ad00"
+        "md5": "87d30136af6328e8146b289aa9ff8ab0"
     },
     {
         "path": "tags",
@@ -807,21 +807,21 @@
     {
         "path": "/tags/blog/index.html",
         "type": "file",
-        "md5": "9c05cacf7652074297b59e7c3aa45a1e"
+        "md5": "a7f74d6f7fd7f83c725a8171e7953bac"
     },
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "ee9fe9ec206a7960cc8ddf69bcd47c74"
+        "md5": "b35bf75fdd9a9465deeebce723ad4092"
     },
     {
         "path": "teachers-upload.html",
         "type": "file",
-        "md5": "707bfa60dc076f0e87d48fb76905b46a"
+        "md5": "32354d1049d47de308b7fe236dbd6456"
     },
     {
         "path": "test.html",
         "type": "file",
-        "md5": "7b89021b1c4e12878ee75fe42226d6aa"
+        "md5": "1c8c91a2348e30c76f4efae54249a094"
     }
 ]
